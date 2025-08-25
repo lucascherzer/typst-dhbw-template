@@ -270,7 +270,6 @@
           company-address
           linebreak()
         },
-        text(weight: "semibold", TITLEPAGE_SIGNATURE.at(language))
       )
     },
 
@@ -298,8 +297,6 @@
       weight: "semibold",
       TITLEPAGE_SIGNATURE.at(language) + [:]
     ),
-    "________________"
-    }
-
+    align(bottom)[#line(length: 8em)]
   )
 }
