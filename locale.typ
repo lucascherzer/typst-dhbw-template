@@ -33,6 +33,11 @@
   "en": "Supervisor at ",
 )
 
+#let TITLEPAGE_SIGNATURE = (
+  "de": "Unterschrift",
+  "en": "Signature",
+)
+
 #let DECLARATION_OF_AUTHORSHIP_TITLE = (
   "de": "Selbstständigkeitserklärung",
   "en": "Declaration of Authorship",

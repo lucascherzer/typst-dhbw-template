@@ -292,6 +292,11 @@
     },
     if ("university" in supervisor and type(supervisor.university) == str) {
       text(supervisor.university)
-    }
+    },
+    text(
+      weight: "semibold",
+      TITLEPAGE_SIGNATURE.at(language) + [:]
+    ),
+    "________________"
   )
 }
