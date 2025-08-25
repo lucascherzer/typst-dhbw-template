@@ -14,6 +14,7 @@
       (name: "ABC S.L.", post-code: "08005", city: "Barcelona", country: "Spain")
     )),
   ),
+  // project-timeframe: [1. Jan 2025 - 1. Aug 2025],
   acronyms: acronyms, // displays the acronyms defined in the acronyms dictionary
   at-university: false, // if true the company name on the title page and the confidentiality statement are hidden
   confidentiality-marker: (display: true),

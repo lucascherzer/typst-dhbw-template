@@ -13,6 +13,11 @@
   "en": "at the ",
 )
 
+#let TITLEPAGE_TIME = (
+  "de": "Bearbeitungszeitraum",
+  "en": "Time of Project"
+)
+
 #let TITLEPAGE_STUDENT_ID = (
   "de": "Matrikelnummer, Kurs:",
   "en": "Student ID, Course:",

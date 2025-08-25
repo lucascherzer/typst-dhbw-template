@@ -81,6 +81,7 @@
   logo-right: none,
   logo-size-ratio: "1:1",
   ignored-link-label-keys-for-highlighting: (),
+  project-timeframe: none,
   body,
 ) = {
   // check required attributes
@@ -205,6 +206,7 @@
       show-confidentiality-statement,
       confidentiality-marker,
       university-short,
+      project-timeframe,
     )
   }
 

@@ -21,6 +21,7 @@
   show-confidentiality-statement,
   confidentiality-marker,
   university-short,
+  project-timeframe,
 ) = {
   if (many-authors) {
     v(-1.5em)
@@ -207,6 +208,13 @@
     row-gutter: 11pt,
     column-gutter: 2.5em,
 
+    // project time frame
+    if (project-timeframe != none) {
+      text(weight: "semibold", TITLEPAGE_TIME.at(language)) + [:]
+    },
+    if (project-timeframe != none) {
+      text(project-timeframe)
+    },
     // students
     text(weight: "semibold", TITLEPAGE_STUDENT_ID.at(language)),
     stack(
